@@ -64,5 +64,4 @@ savjeeCoin.chain[1].data = { amount: 100 };
 // savjeeCoin.chain[1].hash = savjeeCoin.chain[1].calculateHash();
 
 console.log("Blockchain valid? " + savjeeCoin.isChainValid());
-
-// console.log(JSON.stringify(savjeeCoin, null, 4));
+console.log(JSON.stringify(savjeeCoin, null, 4));
